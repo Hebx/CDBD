@@ -2,7 +2,7 @@ import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
 import { CdbdSpl } from "../target/types/cdbd_spl";
 
-describe("cdbd-spl", () => {
+describe("cdbd_spl", () => {
   // Configure the client to use the local cluster.
   const provider = anchor.AnchorProvider.env();
   anchor.setProvider(provider);

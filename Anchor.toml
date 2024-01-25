@@ -5,7 +5,7 @@ seeds = false
 skip-lint = false
 
 [programs.devnet]
-cdbd_spl = "F1ipperKF9EfD821ZbbYjS319LXYiBmjhzkkf5a26rC"
+cdbd_spl = "3iCbv94ivHb4of8NEeikMbk2kckLVSDmUEprpQZ1cBUw"
 
 [registry]
 url = "https://api.apr.dev"
