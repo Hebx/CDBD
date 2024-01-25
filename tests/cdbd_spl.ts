@@ -1,6 +1,6 @@
 import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
-import { CdbdSpl } from "../target/types/cdbd_spl";
+import { CdbdSol } from "../target/types/cdbd_sol";
 import { PublicKey, SystemProgram, SYSVAR_RENT_PUBKEY, LAMPORTS_PER_SOL,ParsedAccountData } from "@solana/web3.js";
 import { Metaplex } from "@metaplex-foundation/js";
 import { assert } from "chai";
@@ -24,7 +24,7 @@ describe("cdbd_spl", () => {
   const wallet = provider.wallet as anchor.Wallet;
   const connection = provider.connection;
 
-  const program = anchor.workspace.CdbdSpl as Program<CdbdSpl>;
+  const program = anchor.workspace.CdbdSol as Program<CdbdSol>;
 
   // Metadata for the Token
   const tokenTitle = "CDBD Token";

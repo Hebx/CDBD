@@ -5,17 +5,19 @@ seeds = false
 skip-lint = false
 
 [programs.devnet]
-cdbd_spl = "3iCbv94ivHb4of8NEeikMbk2kckLVSDmUEprpQZ1cBUw"
+cdbd_spl = "DZnKrLmMnmhWV6zXz8E2e1r173WcSxatHam7BpRhjzqy"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
 cluster = "Devnet"
-wallet = "/Users/heb/.config/solana/id.json"
+wallet = "/Users/heb/.config/solana/devnet.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
 
 [[test.validator.clone]]
 address = "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"
+
+#A1QDB6zREsx7MNnZRNPvAvj58HbzJuobk9VkvFyTzLxi

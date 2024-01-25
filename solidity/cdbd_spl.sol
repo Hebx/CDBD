@@ -1,7 +1,8 @@
-import "../libraries/spl_token.sol";
-import "../libraries/mpl_metadata.sol";
+import {SplToken} from  "/Users/heb/Developer/cdbd-spl/libraries/spl_token.sol";
+import {MplMetadata} from "../libraries/mpl_metadata.sol";
 
-@program_id("3iCbv94ivHb4of8NEeikMbk2kckLVSDmUEprpQZ1cBUw")
+
+@program_id("DZnKrLmMnmhWV6zXz8E2e1r173WcSxatHam7BpRhjzqy")
 contract cdbd_sol {
     @payer(payer)
     constructor() {}
