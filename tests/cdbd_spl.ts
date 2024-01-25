@@ -28,10 +28,10 @@ describe("cdbd_spl", () => {
   const program = anchor.workspace.CdbdSol as Program<CdbdSol>;
 
   // Metadata for the Token
-  const tokenTitle = "CDBD Token";
+  const tokenTitle = "CoinDashboard Token";
   const tokenSymbol = "CDBD";
   const tokenUri =
-    "https://raw.githubusercontent.com/hebx/cdbd/assets/cdbd.json";
+    "https://raw.githubusercontent.com/Hebx/CDBD/main/assets/cdbd.json";
 
   it("Is initialized!", async () => {
     // Initialize data account for the program, which is required by Solang

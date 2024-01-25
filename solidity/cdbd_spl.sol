@@ -1,10 +1,7 @@
-import {SplToken} from  "/Users/heb/Developer/cdbd-spl/libraries/spl_token.sol";
+import {SplToken} from  "../libraries/spl_token.sol";
 import {MplMetadata} from "../libraries/mpl_metadata.sol";
 
-/** @title: CDBD SPL Token
-  * @author: Hebx 
-  * @dev: This is a solang contract for creating and minting CDBD SPL Token
-  */
+
 
 @program_id("DZnKrLmMnmhWV6zXz8E2e1r173WcSxatHam7BpRhjzqy")
 contract cdbd_sol {
