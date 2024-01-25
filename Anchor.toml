@@ -4,14 +4,14 @@
 seeds = false
 skip-lint = false
 
-[programs.localnet]
+[programs.devnet]
 cdbd_spl = "F1ipperKF9EfD821ZbbYjS319LXYiBmjhzkkf5a26rC"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "Devnet"
 wallet = "/Users/heb/.config/solana/id.json"
 
 [scripts]
