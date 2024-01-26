@@ -28,7 +28,7 @@ describe("cdbd_spl", () => {
   const program = anchor.workspace.CdbdSol as Program<CdbdSol>;
 
   // Metadata for the Token
-  const tokenTitle = "CoinDashboard Token";
+  const tokenTitle = "CoinDashboard";
   const tokenSymbol = "CDBD";
   const tokenUri =
     "https://raw.githubusercontent.com/Hebx/CDBD/main/assets/cdbd.json";
@@ -102,7 +102,7 @@ describe("cdbd_spl", () => {
         wallet.publicKey, // payer
         tokenAccount.address, // associated token account address
         mintKeypair.publicKey, // mint
-        new anchor.BN(199000000000) // amount to mint
+        new anchor.BN('100000000000000000') // amount to mint 199.000.000
       )
       .accounts({ dataAccount: dataAccount.publicKey })
       .remainingAccounts([
@@ -134,7 +134,7 @@ describe("cdbd_spl", () => {
     // Converting tokenAmount to a regular number using Number()
     let tokens = Number(tokenAmount);
     console.log("minted token amounts", tokens / LAMPORTS_PER_SOL);
-    assert.equal(tokens / LAMPORTS_PER_SOL, 199);
+    assert.equal(tokens / (10**9), 100000000);
   });
 
 });

@@ -55,3 +55,6 @@ anchor build
 ```sh
 anchor test
 ```
+
+spl-token authorize {token_address} freeze --disable
+spl-token authorize {token_address} mint --disable
